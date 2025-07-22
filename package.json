@@ -10,11 +10,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.3.5",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-markdown": "^8.0.7",
-    "remark-gfm": "^4.0.1",
     "@chroma-core/default-embed": "^0.1.8",
     "@langchain/community": "^0.3.48",
     "@langchain/core": "^0.3.62",
@@ -30,10 +25,15 @@
     "framer-motion": "^12.23.6",
     "langchain": "^0.3.30",
     "mammoth": "^1.9.1",
+    "next": "15.3.5",
     "node-fetch": "^3.3.2",
     "openai": "^4.104.0",
     "pdf-parse": "^1.1.1",
-    "pptx-parser": "^1.1.7-beta.9"
+    "pptx-parser": "^1.1.7-beta.9",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^8.0.7",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -44,7 +44,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
     "tailwindcss": "^4",
-    "typescript": "^5.8.3",
-    "tsx": "^4.20.3"
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
   }
 }
